@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5456C0301E9F751700FFB782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C02F1E9F751700FFB782 /* main.m */; };
+		5456C0331E9F751700FFB782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C0321E9F751700FFB782 /* AppDelegate.m */; };
+		5456C0361E9F751700FFB782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C0351E9F751700FFB782 /* ViewController.m */; };
+		5456C0391E9F751700FFB782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5456C0371E9F751700FFB782 /* Main.storyboard */; };
+		5456C03B1E9F751700FFB782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5456C03A1E9F751700FFB782 /* Assets.xcassets */; };
+		5456C03E1E9F751700FFB782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5456C03C1E9F751700FFB782 /* LaunchScreen.storyboard */; };
+		5456C0491E9F751800FFB782 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C0481E9F751800FFB782 /* ______Tests.m */; };
+		5456C0541E9F751800FFB782 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C0531E9F751800FFB782 /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5456C0451E9F751800FFB782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5456C0231E9F751700FFB782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5456C02A1E9F751700FFB782;
+			remoteInfo = "奥迪康助听器";
+		};
+		5456C0501E9F751800FFB782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5456C0231E9F751700FFB782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5456C02A1E9F751700FFB782;
+			remoteInfo = "奥迪康助听器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5456C02B1E9F751700FFB782 /* 奥迪康助听器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "奥迪康助听器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5456C02F1E9F751700FFB782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5456C0311E9F751700FFB782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5456C0321E9F751700FFB782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5456C0341E9F751700FFB782 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5456C0351E9F751700FFB782 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5456C0381E9F751700FFB782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5456C03A1E9F751700FFB782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5456C03D1E9F751700FFB782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5456C03F1E9F751700FFB782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5456C0441E9F751800FFB782 /* 奥迪康助听器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "奥迪康助听器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5456C0481E9F751800FFB782 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		5456C04A1E9F751800FFB782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5456C04F1E9F751800FFB782 /* 奥迪康助听器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "奥迪康助听器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5456C0531E9F751800FFB782 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		5456C0551E9F751800FFB782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5456C0281E9F751700FFB782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5456C0411E9F751800FFB782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5456C04C1E9F751800FFB782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5456C0221E9F751700FFB782 = {
+			isa = PBXGroup;
+			children = (
+				5456C02D1E9F751700FFB782 /* 奥迪康助听器 */,
+				5456C0471E9F751800FFB782 /* 奥迪康助听器Tests */,
+				5456C0521E9F751800FFB782 /* 奥迪康助听器UITests */,
+				5456C02C1E9F751700FFB782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5456C02C1E9F751700FFB782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5456C02B1E9F751700FFB782 /* 奥迪康助听器.app */,
+				5456C0441E9F751800FFB782 /* 奥迪康助听器Tests.xctest */,
+				5456C04F1E9F751800FFB782 /* 奥迪康助听器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5456C02D1E9F751700FFB782 /* 奥迪康助听器 */ = {
+			isa = PBXGroup;
+			children = (
+				5456C0311E9F751700FFB782 /* AppDelegate.h */,
+				5456C0321E9F751700FFB782 /* AppDelegate.m */,
+				5456C0341E9F751700FFB782 /* ViewController.h */,
+				5456C0351E9F751700FFB782 /* ViewController.m */,
+				5456C0371E9F751700FFB782 /* Main.storyboard */,
+				5456C03A1E9F751700FFB782 /* Assets.xcassets */,
+				5456C03C1E9F751700FFB782 /* LaunchScreen.storyboard */,
+				5456C03F1E9F751700FFB782 /* Info.plist */,
+				5456C02E1E9F751700FFB782 /* Supporting Files */,
+			);
+			path = "奥迪康助听器";
+			sourceTree = "<group>";
+		};
+		5456C02E1E9F751700FFB782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5456C02F1E9F751700FFB782 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5456C0471E9F751800FFB782 /* 奥迪康助听器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5456C0481E9F751800FFB782 /* ______Tests.m */,
+				5456C04A1E9F751800FFB782 /* Info.plist */,
+			);
+			path = "奥迪康助听器Tests";
+			sourceTree = "<group>";
+		};
+		5456C0521E9F751800FFB782 /* 奥迪康助听器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5456C0531E9F751800FFB782 /* ______UITests.m */,
+				5456C0551E9F751800FFB782 /* Info.plist */,
+			);
+			path = "奥迪康助听器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5456C02A1E9F751700FFB782 /* 奥迪康助听器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5456C0581E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器" */;
+			buildPhases = (
+				5456C0271E9F751700FFB782 /* Sources */,
+				5456C0281E9F751700FFB782 /* Frameworks */,
+				5456C0291E9F751700FFB782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "奥迪康助听器";
+			productName = "奥迪康助听器";
+			productReference = 5456C02B1E9F751700FFB782 /* 奥迪康助听器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5456C0431E9F751800FFB782 /* 奥迪康助听器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5456C05B1E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器Tests" */;
+			buildPhases = (
+				5456C0401E9F751800FFB782 /* Sources */,
+				5456C0411E9F751800FFB782 /* Frameworks */,
+				5456C0421E9F751800FFB782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5456C0461E9F751800FFB782 /* PBXTargetDependency */,
+			);
+			name = "奥迪康助听器Tests";
+			productName = "奥迪康助听器Tests";
+			productReference = 5456C0441E9F751800FFB782 /* 奥迪康助听器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5456C04E1E9F751800FFB782 /* 奥迪康助听器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5456C05E1E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器UITests" */;
+			buildPhases = (
+				5456C04B1E9F751800FFB782 /* Sources */,
+				5456C04C1E9F751800FFB782 /* Frameworks */,
+				5456C04D1E9F751800FFB782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5456C0511E9F751800FFB782 /* PBXTargetDependency */,
+			);
+			name = "奥迪康助听器UITests";
+			productName = "奥迪康助听器UITests";
+			productReference = 5456C04F1E9F751800FFB782 /* 奥迪康助听器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5456C0231E9F751700FFB782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "cbl－　点硕";
+				TargetAttributes = {
+					5456C02A1E9F751700FFB782 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = X7GF9H7LXU;
+						ProvisioningStyle = Automatic;
+					};
+					5456C0431E9F751800FFB782 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = X7GF9H7LXU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5456C02A1E9F751700FFB782;
+					};
+					5456C04E1E9F751800FFB782 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = X7GF9H7LXU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5456C02A1E9F751700FFB782;
+					};
+				};
+			};
+			buildConfigurationList = 5456C0261E9F751700FFB782 /* Build configuration list for PBXProject "奥迪康助听器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5456C0221E9F751700FFB782;
+			productRefGroup = 5456C02C1E9F751700FFB782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5456C02A1E9F751700FFB782 /* 奥迪康助听器 */,
+				5456C0431E9F751800FFB782 /* 奥迪康助听器Tests */,
+				5456C04E1E9F751800FFB782 /* 奥迪康助听器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5456C0291E9F751700FFB782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5456C03E1E9F751700FFB782 /* LaunchScreen.storyboard in Resources */,
+				5456C03B1E9F751700FFB782 /* Assets.xcassets in Resources */,
+				5456C0391E9F751700FFB782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5456C0421E9F751800FFB782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5456C04D1E9F751800FFB782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5456C0271E9F751700FFB782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5456C0361E9F751700FFB782 /* ViewController.m in Sources */,
+				5456C0331E9F751700FFB782 /* AppDelegate.m in Sources */,
+				5456C0301E9F751700FFB782 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5456C0401E9F751800FFB782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5456C0491E9F751800FFB782 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5456C04B1E9F751800FFB782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5456C0541E9F751800FFB782 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5456C0461E9F751800FFB782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5456C02A1E9F751700FFB782 /* 奥迪康助听器 */;
+			targetProxy = 5456C0451E9F751800FFB782 /* PBXContainerItemProxy */;
+		};
+		5456C0511E9F751800FFB782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5456C02A1E9F751700FFB782 /* 奥迪康助听器 */;
+			targetProxy = 5456C0501E9F751800FFB782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5456C0371E9F751700FFB782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5456C0381E9F751700FFB782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5456C03C1E9F751700FFB782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5456C03D1E9F751700FFB782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5456C0561E9F751800FFB782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5456C0571E9F751800FFB782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5456C0591E9F751800FFB782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				INFOPLIST_FILE = "奥迪康助听器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5456C05A1E9F751800FFB782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				INFOPLIST_FILE = "奥迪康助听器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5456C05C1E9F751800FFB782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				INFOPLIST_FILE = "奥迪康助听器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/奥迪康助听器.app/奥迪康助听器";
+			};
+			name = Debug;
+		};
+		5456C05D1E9F751800FFB782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				INFOPLIST_FILE = "奥迪康助听器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/奥迪康助听器.app/奥迪康助听器";
+			};
+			name = Release;
+		};
+		5456C05F1E9F751800FFB782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				INFOPLIST_FILE = "奥迪康助听器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "奥迪康助听器";
+			};
+			name = Debug;
+		};
+		5456C0601E9F751800FFB782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				INFOPLIST_FILE = "奥迪康助听器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "奥迪康助听器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5456C0261E9F751700FFB782 /* Build configuration list for PBXProject "奥迪康助听器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5456C0561E9F751800FFB782 /* Debug */,
+				5456C0571E9F751800FFB782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5456C0581E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5456C0591E9F751800FFB782 /* Debug */,
+				5456C05A1E9F751800FFB782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5456C05B1E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5456C05C1E9F751800FFB782 /* Debug */,
+				5456C05D1E9F751800FFB782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5456C05E1E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5456C05F1E9F751800FFB782 /* Debug */,
+				5456C0601E9F751800FFB782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5456C0231E9F751700FFB782 /* Project object */;
+}
