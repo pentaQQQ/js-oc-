@@ -15,6 +15,16 @@
 		5456C03E1E9F751700FFB782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5456C03C1E9F751700FFB782 /* LaunchScreen.storyboard */; };
 		5456C0491E9F751800FFB782 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C0481E9F751800FFB782 /* ______Tests.m */; };
 		5456C0541E9F751800FFB782 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C0531E9F751800FFB782 /* ______UITests.m */; };
+		5456C0641E9F75C000FFB782 /* XLBallLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5456C0631E9F75C000FFB782 /* XLBallLoading.m */; };
+		545F95D91EA44BA300F0F9D8 /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F95CE1EA44BA300F0F9D8 /* libSocialWeChat.a */; };
+		545F95DA1EA44BA300F0F9D8 /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F95D11EA44BA300F0F9D8 /* UMSocialCore.framework */; };
+		545F95DB1EA44BA300F0F9D8 /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F95D21EA44BA300F0F9D8 /* UMSocialNetwork.framework */; };
+		545F95DC1EA44BA300F0F9D8 /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 545F95D31EA44BA300F0F9D8 /* UMSocialSDKPromptResources.bundle */; };
+		545F95DD1EA44BA300F0F9D8 /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F95D51EA44BA300F0F9D8 /* libUMSocialLog.a */; };
+		545F95DE1EA44BA300F0F9D8 /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 545F95D71EA44BA300F0F9D8 /* UMSocialSDKResources.bundle */; };
+		545F95DF1EA44BA300F0F9D8 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F95D81EA44BA300F0F9D8 /* UShareUI.framework */; };
+		545F95E21EA4528100F0F9D8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F95E11EA4528100F0F9D8 /* libsqlite3.tbd */; };
+		545F95E41EA4528F00F0F9D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F95E31EA4528F00F0F9D8 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,18 @@
 		5456C04F1E9F751800FFB782 /* 奥迪康助听器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "奥迪康助听器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5456C0531E9F751800FFB782 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		5456C0551E9F751800FFB782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5456C0621E9F75C000FFB782 /* XLBallLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBallLoading.h; sourceTree = "<group>"; };
+		5456C0631E9F75C000FFB782 /* XLBallLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBallLoading.m; sourceTree = "<group>"; };
+		545F95CE1EA44BA300F0F9D8 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		545F95CF1EA44BA300F0F9D8 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		545F95D11EA44BA300F0F9D8 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		545F95D21EA44BA300F0F9D8 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		545F95D31EA44BA300F0F9D8 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		545F95D51EA44BA300F0F9D8 /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
+		545F95D71EA44BA300F0F9D8 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		545F95D81EA44BA300F0F9D8 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		545F95E11EA4528100F0F9D8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		545F95E31EA4528F00F0F9D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545F95E41EA4528F00F0F9D8 /* CoreGraphics.framework in Frameworks */,
+				545F95E21EA4528100F0F9D8 /* libsqlite3.tbd in Frameworks */,
+				545F95DA1EA44BA300F0F9D8 /* UMSocialCore.framework in Frameworks */,
+				545F95DD1EA44BA300F0F9D8 /* libUMSocialLog.a in Frameworks */,
+				545F95D91EA44BA300F0F9D8 /* libSocialWeChat.a in Frameworks */,
+				545F95DB1EA44BA300F0F9D8 /* UMSocialNetwork.framework in Frameworks */,
+				545F95DF1EA44BA300F0F9D8 /* UShareUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,7 @@
 				5456C0471E9F751800FFB782 /* 奥迪康助听器Tests */,
 				5456C0521E9F751800FFB782 /* 奥迪康助听器UITests */,
 				5456C02C1E9F751700FFB782 /* Products */,
+				545F95E01EA4528100F0F9D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,8 @@
 		5456C02D1E9F751700FFB782 /* 奥迪康助听器 */ = {
 			isa = PBXGroup;
 			children = (
+				545F95CB1EA44BA300F0F9D8 /* UMSocial */,
+				5456C0611E9F75C000FFB782 /* XLBallLoading */,
 				5456C0311E9F751700FFB782 /* AppDelegate.h */,
 				5456C0321E9F751700FFB782 /* AppDelegate.m */,
 				5456C0341E9F751700FFB782 /* ViewController.h */,
@@ -138,6 +170,79 @@
 				5456C0551E9F751800FFB782 /* Info.plist */,
 			);
 			path = "奥迪康助听器UITests";
+			sourceTree = "<group>";
+		};
+		5456C0611E9F75C000FFB782 /* XLBallLoading */ = {
+			isa = PBXGroup;
+			children = (
+				5456C0621E9F75C000FFB782 /* XLBallLoading.h */,
+				5456C0631E9F75C000FFB782 /* XLBallLoading.m */,
+			);
+			path = XLBallLoading;
+			sourceTree = "<group>";
+		};
+		545F95CB1EA44BA300F0F9D8 /* UMSocial */ = {
+			isa = PBXGroup;
+			children = (
+				545F95CC1EA44BA300F0F9D8 /* SocialLibraries */,
+				545F95D01EA44BA300F0F9D8 /* UMSocialSDK */,
+				545F95D41EA44BA300F0F9D8 /* UMSocialSDKPlugin */,
+				545F95D61EA44BA300F0F9D8 /* UMSocialUI */,
+			);
+			path = UMSocial;
+			sourceTree = "<group>";
+		};
+		545F95CC1EA44BA300F0F9D8 /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				545F95CD1EA44BA300F0F9D8 /* WeChat */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		545F95CD1EA44BA300F0F9D8 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				545F95CE1EA44BA300F0F9D8 /* libSocialWeChat.a */,
+				545F95CF1EA44BA300F0F9D8 /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		545F95D01EA44BA300F0F9D8 /* UMSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				545F95D11EA44BA300F0F9D8 /* UMSocialCore.framework */,
+				545F95D21EA44BA300F0F9D8 /* UMSocialNetwork.framework */,
+				545F95D31EA44BA300F0F9D8 /* UMSocialSDKPromptResources.bundle */,
+			);
+			path = UMSocialSDK;
+			sourceTree = "<group>";
+		};
+		545F95D41EA44BA300F0F9D8 /* UMSocialSDKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				545F95D51EA44BA300F0F9D8 /* libUMSocialLog.a */,
+			);
+			path = UMSocialSDKPlugin;
+			sourceTree = "<group>";
+		};
+		545F95D61EA44BA300F0F9D8 /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				545F95D71EA44BA300F0F9D8 /* UMSocialSDKResources.bundle */,
+				545F95D81EA44BA300F0F9D8 /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		545F95E01EA4528100F0F9D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545F95E31EA4528F00F0F9D8 /* CoreGraphics.framework */,
+				545F95E11EA4528100F0F9D8 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +312,7 @@
 				TargetAttributes = {
 					5456C02A1E9F751700FFB782 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = X7GF9H7LXU;
+						DevelopmentTeam = MCJ94XNTXW;
 						ProvisioningStyle = Automatic;
 					};
 					5456C0431E9F751800FFB782 = {
@@ -252,6 +357,8 @@
 				5456C03E1E9F751700FFB782 /* LaunchScreen.storyboard in Resources */,
 				5456C03B1E9F751700FFB782 /* Assets.xcassets in Resources */,
 				5456C0391E9F751700FFB782 /* Main.storyboard in Resources */,
+				545F95DC1EA44BA300F0F9D8 /* UMSocialSDKPromptResources.bundle in Resources */,
+				545F95DE1EA44BA300F0F9D8 /* UMSocialSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +386,7 @@
 				5456C0361E9F751700FFB782 /* ViewController.m in Sources */,
 				5456C0331E9F751700FFB782 /* AppDelegate.m in Sources */,
 				5456C0301E9F751700FFB782 /* main.m in Sources */,
+				5456C0641E9F75C000FFB782 /* XLBallLoading.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +537,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				DEVELOPMENT_TEAM = MCJ94XNTXW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/UMSocialUI",
+				);
 				INFOPLIST_FILE = "奥迪康助听器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/UMSocialSDKPlugin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oticon.Oticon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,11 +562,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X7GF9H7LXU;
+				DEVELOPMENT_TEAM = MCJ94XNTXW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/UMSocialUI",
+				);
 				INFOPLIST_FILE = "奥迪康助听器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cbl.------";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/奥迪康助听器/UMSocial/UMSocialSDKPlugin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oticon.Oticon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +652,7 @@
 				5456C05A1E9F751800FFB782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5456C05B1E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +661,7 @@
 				5456C05D1E9F751800FFB782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5456C05E1E9F751800FFB782 /* Build configuration list for PBXNativeTarget "奥迪康助听器UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +670,7 @@
 				5456C0601E9F751800FFB782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
