@@ -81,7 +81,7 @@
 {
     // 在需要进行获取登录信息的UIViewController中加入如下代
         [[UMSocialManager defaultManager] getUserInfoWithPlatform:UMSocialPlatformType_WechatSession currentViewController:self completion:^(id result, NSError *error) {
-            NSLog(@"%@",error);
+            NSLog(@"+++++++++%@",error);
             UMSocialUserInfoResponse *resp = result;
             // 第三方登录数据(为空表示平台未提供)
             NSLog(@">>>>>>>>>%@",resp);

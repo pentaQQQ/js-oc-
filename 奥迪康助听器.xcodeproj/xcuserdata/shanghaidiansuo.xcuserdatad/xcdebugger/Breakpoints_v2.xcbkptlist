@@ -2,4 +2,86 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5965;&#x8fea;&#x5eb7;&#x52a9;&#x542c;&#x5668;/ViewController.m"
+            timestampString = "520850889.773001"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-weixin"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5965;&#x8fea;&#x5eb7;&#x52a9;&#x542c;&#x5668;/ViewController.m"
+            timestampString = "520909386.123245"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5965;&#x8fea;&#x5eb7;&#x52a9;&#x542c;&#x5668;/ViewController.m"
+            timestampString = "520909511.098201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-weixin"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController weixin]"
+                  moduleName = "&#x5965;&#x8fea;&#x5eb7;&#x52a9;&#x542c;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zfd-dianshuo/project/aodikang%20/%E5%A5%A5%E8%BF%AA%E5%BA%B7%E5%8A%A9%E5%90%AC%E5%99%A8/ViewController.m"
+                  timestampString = "520910052.543026"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__24-[ViewController weixin]_block_invoke"
+                  moduleName = "&#x5965;&#x8fea;&#x5eb7;&#x52a9;&#x542c;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zfd-dianshuo/project/aodikang%20/%E5%A5%A5%E8%BF%AA%E5%BA%B7%E5%8A%A9%E5%90%AC%E5%99%A8/ViewController.m"
+                  timestampString = "520910052.54435"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
