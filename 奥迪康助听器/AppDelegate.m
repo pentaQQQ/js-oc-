@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    
     /* 打开调试日志 */
     [[UMSocialManager defaultManager] openLog:YES];
     
